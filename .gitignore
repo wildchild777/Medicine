@@ -1,0 +1,4 @@
+#The venv file
+venv/
+#The files that are going to have the data
+data/raw
