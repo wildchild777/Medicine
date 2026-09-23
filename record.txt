@@ -1,0 +1,29 @@
+(.venv) PS C:\Users\karan\Desktop\Medicine\Medicine> Get-FileHash data\raw\*.zip -Algorithm SHA256 | Format-List
+
+
+Algorithm : SHA256
+Hash      : B28B701CC5F8FCD3ADD2A57A0C478F19F22FE4BEEE83F5723E58ED87FC43FC39
+Path      : C:\Users\karan\Desktop\Medicine\Medicine\data\raw\az-medicine-dataset-of-india.zip
+
+Algorithm : SHA256
+Hash      : 8B90C1D0AE3D8CEA7B7E5926F4DBDFAF433A4383CB2C01B8A07E249D74F9AD7F
+Path      : C:\Users\karan\Desktop\Medicine\Medicine\data\raw\India Medicines and Drug Info Dataset(tata 1mg 25).zip
+
+==
+
+(.venv) PS C:\Users\karan\Desktop\Medicine\Medicine> Get-FileHash data\raw\az\*.csv -Algorithm SHA256 | Format-List
+
+
+Algorithm : SHA256
+Hash      : F89C1CDEA39C615151201F15A99082E83C1AAC0CD41A742D0F0C3A511C87A2D7
+Path      : C:\Users\karan\Desktop\Medicine\Medicine\data\raw\az\A_Z_medicines_dataset_of_India.csv
+
+
+
+(.venv) PS C:\Users\karan\Desktop\Medicine\Medicine> Get-FileHash data\raw\1mg\*.csv -Algorithm SHA256 | Format-List
+
+
+Algorithm : SHA256
+Hash      : AF7659AC91C7602D68CEA006BB06477E19CF01DEECB97F9B661976A7DFCEC371
+Path      : C:\Users\karan\Desktop\Medicine\Medicine\data\raw\1mg\India Medicines and Drug Info Dataset.csv
+
