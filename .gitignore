@@ -1,4 +1,15 @@
-#The venv file
+# Virtual environments - rebuild from requirements.txt instead
 venv/
-#The files that are going to have the data
-data/raw
+.venv/
+
+# Raw data is third-party and large; see docs/data-sources.md for how to get it
+data/raw/
+
+# Pipeline outputs, regenerated from raw
+data/processed/
+
+# Python and tooling caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
