@@ -10,9 +10,3 @@ def test_pands_read():
     assert df["price"].iloc[0] > 200
     print(df.dtypes)
     assert df["composition"].iloc[0].startswith("Amoxycillin")
-
-def test_dim():
-    #df = pd.read_csv("data/raw/az/A_Z_medicines_dataset_of_India.csv")
-    df = pd.read_csv("data/raw/1mg/India Medicines and Drug Info Dataset.csv")
-    print(df.shape)
-    print(df.columns.tolist())
